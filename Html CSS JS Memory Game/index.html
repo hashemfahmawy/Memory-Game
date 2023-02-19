@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <div class="control-buttons">
+        <span>Start Game</span>
+    </div>
+
+    <div class="info-container">
+        <div class="name">
+            Hello: <span></span>
+        </div>
+        <div class="tries">
+            Wrong Tries: <span>0</span>
+        </div>
+    </div>
+
+    <div class="memory-game-blocks">
+        <div class="gmae-block" data-fruits="Lemon">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="img/image (1).jpg" alt="image">
+            </div>
+        </div>
+        <div class="gmae-block" data-fruits="Lemon">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="img/image (1).jpg" alt="image">
+            </div>
+        </div>
+        <div class="gmae-block" data-fruits="Avocado">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="img/image (1).webp" alt="image">
+            </div>
+        </div>
+        <div class="gmae-block" data-fruits="Avocado">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="img/image (1).webp" alt="image">
+            </div>
+        </div>
+        <div class="gmae-block" data-fruits="grape">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="img/image (2).jpg" alt="image">
+            </div>
+        </div>
+        <div class="gmae-block" data-fruits="grape">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="img/image (2).jpg" alt="image">
+            </div>
+        </div>
+        <div class="gmae-block" data-fruits="cherry">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="img/image (2).webp" alt="image">
+            </div>
+        </div>
+        <div class="gmae-block" data-fruits="cherry">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="img/image (2).webp" alt="image">
+            </div>
+        </div>
+        <div class="gmae-block" data-fruits="pear">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="img/image (3).webp" alt="image">
+            </div>
+        </div>
+        <div class="gmae-block" data-fruits="pear">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="img/image (3).webp" alt="image">
+            </div>
+        </div>
+        <div class="gmae-block" data-fruits="coktail">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="img/image (4).jpg" alt="image">
+            </div>
+        </div>
+        <div class="gmae-block" data-fruits="coktail">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="img/image (4).jpg" alt="image">
+            </div>
+        </div>
+        <div class="gmae-block" data-fruits="orange">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="img/image (5).jpg" alt="image">
+            </div>
+        </div>
+        <div class="gmae-block" data-fruits="orange">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="img/image (5).jpg" alt="image">
+            </div>
+        </div>
+        <div class="gmae-block" data-fruits="pineapple">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="img/image (6).jpg" alt="image">
+            </div>
+        </div>
+        <div class="gmae-block" data-fruits="pineapple">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="img/image (6).jpg" alt="image">
+            </div>
+        </div>
+        <div class="gmae-block" data-fruits="strawberry">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="img/image (7).jpg" alt="image">
+            </div>
+        </div>
+        <div class="gmae-block" data-fruits="strawberry">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="img/image (7).jpg" alt="image">
+            </div>
+        </div>
+        <div class="gmae-block" data-fruits="apple">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="img/image (8).jpg" alt="image">
+            </div>
+        </div>
+        <div class="gmae-block" data-fruits="apple">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="img/image (8).jpg" alt="image">
+            </div>
+        </div>
+    </div>
+
+    <audio id="success" src="sounds/success-1-6297.mp3" preload="auto"></audio>
+    <audio id="fail" src="sounds/negative_beeps-6008.mp3" preload="auto"></audio>
+
+    <script src="main.js"></script>
+</body>
+</html>
